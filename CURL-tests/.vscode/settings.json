@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "curl.h": "c",
-        "in.h": "c",
-        "string.h": "c",
-        "proxy_parse.h": "c",
-        "_pthread_types.h": "c"
-    }
-}
