@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "unistd.h": "c",
+        "__config": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "proxy_parse.h": "c",
+        "semaphore.h": "c",
+        "curl.h": "c",
+        "header.h": "c",
+        "http1.x_handler.h": "c"
+    }
+}

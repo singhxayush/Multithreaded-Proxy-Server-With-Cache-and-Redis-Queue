@@ -1,0 +1,67 @@
+Setting Proxy Server Port : 8080
+Binding ✅
+Listening on :: 8080
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+
+#CLIENT_PORT_NUM        : 49643
+#CLIENT_IP_ADDR         : 127.0.0.1
+#CLIENT_ID              : 5
+#CLIENT_INDEX           : 0
+
+--------|EXECUTING THREAD FOR CLIENT: 5|--------
+
+#CLIENT_PORT_NUM        : 49645
+#CLIENT_IP_ADDR         : 127.0.0.1
+#CLIENT_ID              : 6
+#CLIENT_INDEX           : 6
+
+--------|EXECUTING THREAD FOR CLIENT: 0|--------
+Semaphore value: 0
+
+
+-----------------|SEARCH CACHE|-----------------
+Cache Lock: 🔒(acquired, 0)
+❌ CACHE MISS: URL NOT FOUND
+Cache Lock: 🔓(released, 0)
+
+
+-----------------|UPDATE CACHE|-----------------
+Cache Lock: 🔒(acquired, 0)
+Cache Updated ✅
+Cache Lock: 🔓(released, 0)
+------------------------------------------------
+Done
+Semaphore value: 1
+Semaphore value: 0
+
+
+-----------------|SEARCH CACHE|-----------------
+Cache Lock: 🔒(acquired, 0)
+Cache Lock: 🔓(released, 0)
+Error in receiving from client.
+: Socket operation on non-socket
+Semaphore value: 1
+
+#CLIENT_PORT_NUM        : 49648
+#CLIENT_IP_ADDR         : 127.0.0.1
+#CLIENT_ID              : 0
+#CLIENT_INDEX           : 7
+
+--------|EXECUTING THREAD FOR CLIENT: 0|--------
+Semaphore value: 0
+
+
+-----------------|SEARCH CACHE|-----------------
+Cache Lock: 🔒(acquired, 0)
+Cache Lock: 🔓(released, 0)
+
+
+-----------------|UPDATE CACHE|-----------------
+Cache Lock: 🔒(acquired, 0)
+Cache Updated ✅
+Cache Lock: 🔓(released, 0)
+------------------------------------------------
+Done
+Semaphore value: 1

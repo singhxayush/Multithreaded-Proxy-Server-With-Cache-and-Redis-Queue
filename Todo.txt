@@ -1,0 +1,5 @@
+work on some test-cases
+
+handle HTTP/2.0 (and above if possible)
+
+integrate redis-queue
