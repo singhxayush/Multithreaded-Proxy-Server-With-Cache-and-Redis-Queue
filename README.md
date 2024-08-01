@@ -4,26 +4,27 @@
 
 1. [Working](#working)
 2. [Overview](#Project-Overview)
+3. [Example](#Example)
 3. [Setup and Run](#Setup-and-Run)
 4. [Directory Structure](#directory-structure)
-
-
-<!-- ![Project Diagram](images/diag.png) -->
-
-<img src="images/diag.png" alt="Project Diagram" style="border-radius: 15px; margin-bottom: 50px">
-
-![Project Diagram](images/flow.png)
 
 
 ## Project Overview
 
 1. This project implements a Multithreaded Proxy Server with Caching and Redis Queue. It designed to handle multiple HTTP **GET** requests simultaneously.
-
 2. It features a multithreaded architecture to handle multiple incoming clients simultaneously and uses an LRU caching mechanism to minimize unnecessary requests to the remote server.
-
 3. The project also integrates a Redis queue to manage requests during peak loads to keep things running smoothly.
+4. Supports HTTP/1.x and HTTP/2.0
 
-4. Supports HTTP/1.x
+## Working
+<!-- ![Project Diagram](images/diag.png) -->
+![Project Diagram](images/diag.png)
+
+
+## Example
+![Project Diagram](images/flow.png)
+
+
 
 
 
@@ -134,8 +135,4 @@
 - **tests/**: Directory for test files.
   - **some_test.c**:
 - **Makefile**: Makefile for building the project.
-- **Todo.txt**: A list of features yet to imple
-
-
-
-## Working
+- **Todo.txt**: A list of features yet to implement.
