@@ -121,8 +121,6 @@ Certainly, I'll add the running part in a similar Markdown syntax. Here's how it
 
    Replace `localhost:8080` with the appropriate host and port if you're not using the default, and replace the example URL with your desired destination.
 
-Is there anything else you'd like me to add or modify in these instructions?
-
 ## Directory Structure
 
     .
