@@ -2,12 +2,11 @@
 
 ## Index
 
-1. [Working](#working)
-2. [Overview](#Project-Overview)
+1. [Overview](#Project-Overview)
+2. [Working](#working)
 3. [Example](#Example)
-3. [Setup and Run](#Setup-and-Run)
-4. [Directory Structure](#directory-structure)
-
+4. [Setup and Run](#Setup-and-Run)
+5. [Directory Structure](#directory-structure)
 
 ## Project Overview
 
@@ -17,32 +16,31 @@
 4. Supports HTTP/1.x and HTTP/2.0
 
 ## Working
+
 <!-- ![Project Diagram](images/diag.png) -->
+
 ![Project Diagram](images/diag.png)
 
-
 ## Example
+
 ![Project Diagram](images/flow.png)
-
-
-
-
 
 ## Setup and Run
 
 #### Prerequisites:
 
-* OS: macOS, Linux
-* C compiler (GCC, Clang)
-* CURL
+- OS: macOS, Linux
+- C compiler (GCC, Clang)
+- lcurl (library in C)
 
 #### Setup
+
 **Clone the Repository**:
 
-  ```bash
-  git clone https://github.com/username/repository.git
-  cd repository
-  ```
+```bash
+git clone https://github.com/singhxayush/Multithreaded-Proxy-Server-With-Cache-and-Redis-Queue.git
+cd Multithreaded-Proxy-Server-With-Cache-and-Redis-Queue
+```
 
 #### Building the Project:
 
@@ -88,11 +86,42 @@
 
 **Important Notes:**
 
-* The `make` command automatically determines the necessary steps based on the Makefile.
-* You can customize the build process by modifying the Makefile variables (e.g., `PORT`, `CFLAGS`).
-* Refer to the Makefile comments for detailed explanations of each target and variable.
+- The `make` command automatically determines the necessary steps based on the Makefile.
+- You can customize the build process by modifying the Makefile variables (e.g., `PORT`, `CFLAGS`).
+- Refer to the Makefile comments for detailed explanations of each target and variable.
 
+Certainly, I'll add the running part in a similar Markdown syntax. Here's how it would look:
 
+#### Running the Proxy Server:
+
+1. **Default Port:** To run the proxy server on the default port (8080), execute:
+
+   ```bash
+   make run
+   ```
+
+2. **Custom Port:** To run the proxy server on a specific port (e.g., 7000), use:
+   ```bash
+   make run PORT=7000
+   ```
+
+#### Using the Proxy Server:
+
+3. **Via Command Line:** You can use curl to send requests through the proxy:
+
+   ```bash
+   curl -X GET http://localhost:8080/https://www.cs.princeton.edu
+   ```
+
+4. **Via Web Browser:** Enter the following URL format in your browser:
+
+   ```
+   http://localhost:8080/https://www.cs.princeton.edu
+   ```
+
+   Replace `localhost:8080` with the appropriate host and port if you're not using the default, and replace the example URL with your desired destination.
+
+Is there anything else you'd like me to add or modify in these instructions?
 
 ## Directory Structure
 
@@ -118,7 +147,6 @@
     ├── Todo.txt
     ├── Makefile
     ╰── README.md
-
 
 ### Description
 
